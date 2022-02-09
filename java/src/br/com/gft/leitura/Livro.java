@@ -39,7 +39,7 @@ public class Livro {
     }
 
     public double verificarProgresso(){
-        return paginasLidas * qtdPaginas / 100;
+        return Math.floor(paginasLidas * qtdPaginas / 100);
     }
 
     public int adicionarPaginasLidas(){
